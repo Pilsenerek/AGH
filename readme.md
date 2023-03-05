@@ -10,3 +10,5 @@ Ensure that you have `docker`  and `docker-compose`
 
 # Run tests
 `docker-compose run --rm api php bin/phpunit`
+
+In case of error try to run tests again (at this moment tests are provisional)
