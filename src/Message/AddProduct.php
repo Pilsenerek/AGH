@@ -4,12 +4,7 @@ namespace App\Message;
 
 final class AddProduct
 {
-    /*
-     * Add whatever properties and methods you need
-     * to hold the data for this message class.
-     */
-
-     private $name;
+     private string $name;
 
      public function __construct(string $name)
      {

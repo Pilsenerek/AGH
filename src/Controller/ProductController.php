@@ -33,11 +33,6 @@ class ProductController extends AbstractController
     {
         $bus->dispatch(new AddProduct($request->get('name')));
 
-        //$product = new Product();
-        //$product->setName($request->get('name'));
-        //$em->persist($product);
-        //$em->flush();
-
         return $this->json([], 202);
     }
 }
